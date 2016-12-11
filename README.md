@@ -111,11 +111,7 @@ generateAndSendPdf.json:
         "method"             : "POST",
         "uri"                : "http://api.example.com/v1/email",
         "formData"           : {
-            "@fileRefs" : [
-                {
-                    "attachment" : "${dependency[0].body}" // or whatever property it comes back under; this is a stream
-                }
-            ],
+			"attachment" : "${dependency[0].body}", // or whatever property it comes back under; this is a stream
             "from"    : "no-reply@privateappmail.com",
             "to"      : "garth@weeverapps.com",
             "subject" : "uploadFilesMultipartDependencyResponse test",
