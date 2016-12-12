@@ -16,6 +16,7 @@
     "bluebird": "^3.4.0",
     "chance": "^1.0.3",
     "es6-template-strings": "^2.0.0",
+    "form-data": "^2.1.2",
     "lodash": "~2.3.0",
     "methods": "^1.1.2",
     "request": "^2.72.0",
